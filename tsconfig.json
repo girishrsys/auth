@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es2017",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "removeComments": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "outDir": "./dist",
+        "typeRoots": [],
+        "types": [
+            "swagger-express-ts"
+        ]
+    },
+    "filesGlob": [
+        "./src/**/*.ts"
+    ],
+    "exclude": []
+}
